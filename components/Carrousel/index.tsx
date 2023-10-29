@@ -42,20 +42,25 @@ const Carrousel = () => {
   return (
     <section>
       <Image
-        className={`w-full h-48 absolute transition-opacity duration-300 ease-linear ${opacityImages.imageCarrousel01}`}
+        className={`w-full h-64 absolute transition-opacity duration-300 ease-linear sm:h-80 lg:h-[500px] ${opacityImages.imageCarrousel01}`}
         src={imageCarrousel01Defatul}
         alt="proyecto01"
       />
       <Image
-        className={`w-full h-48 absolute transition-opacity duration-300 ease-linear ${opacityImages.imageCarrousel02}`}
+        className={`w-full h-64 absolute transition-opacity duration-300 ease-linear sm:h-80 lg:h-[500px] ${opacityImages.imageCarrousel02}`}
         src={imageCarrousel02Defatul}
         alt="proyecto02"
       />
       <Image
-        className={`w-full h-48 absolute transition-opacity duration-300 ease-linear ${opacityImages.imageCarrousel03}`}
+        className={`w-full h-64 absolute transition-opacity duration-300 ease-linear sm:h-80 lg:h-[500px] ${opacityImages.imageCarrousel03}`}
         src={imageCarrousel03Defatul}
         alt="proyecto03"
       />
+      <div className="absolute w-full h-64 flex justify-end items-end sm:h-80 lg:h-[500px]">
+        <div className="bg-[rgba(0,0,0)] rounded-md m-5 p-2">
+          <p>Proyectos de Lucas.Pexel - 01.01.2023</p>
+        </div>
+      </div>
     </section>
   );
 }
