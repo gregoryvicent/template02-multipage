@@ -21,7 +21,7 @@ const Header = () => {
 
   return (
     <>
-      <div className={`flex justify-end text-black transition-all duration-500 ease-in-out w-screen h-screen absolute  ${translateClass} ${opacityClass}`}>
+      <div className={`flex justify-end text-black transition-all duration-500 ease-in-out w-screen h-screen absolute z-50 ${translateClass} ${opacityClass}`}>
         <div className="bg-white h-screen w-3/4 absolute">
           <div className="flex justify-end">
             <FontAwesomeIcon className="m-5 text-2xl hover:cursor-pointer" icon={faXmark} style={{color: "#000000",}} onClick={handleClickMenu}/>
