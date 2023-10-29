@@ -35,7 +35,7 @@ const Header = () => {
         </div>
       </div>
       <header className="flex justify-between items-center bg-[url('/images/header/header_bg.png')] bg-cover bg-right">
-        <h1 className="text-center text-3xl font-extralight p-3 border w-48 mx-5 my-10">Lucas.Pixel</h1>
+        <h1 className="bg-[rgb(10,10,10)] text-center text-3xl font-extralight p-3 border w-48 mx-5 my-10">Lucas.Pixel</h1>
         <div className="flex justify-center items-center mr-5 bg-gray-300 rounded-lg w-10 h-10 transition-colors duration-300 ease-in-out hover:cursor-pointer hover:bg-white" onClick={handleClickMenu}>
           <FontAwesomeIcon className="text-gl" icon={faBars} style={{ color: "#000000", }} />
         </div>
