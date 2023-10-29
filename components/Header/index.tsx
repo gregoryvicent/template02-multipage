@@ -27,10 +27,10 @@ const Header = () => {
             <FontAwesomeIcon className="m-5 text-2xl hover:cursor-pointer" icon={faXmark} style={{color: "#000000",}} onClick={handleClickMenu}/>
           </div>
           <ul className=" ml-5 mt-5 text-2xl">
-            <li className="mt-5"><a className="font-medium decoration-2 underline-offset-8 hover:underline" href="#">SOBRE MI</a></li>
-            <li className="mt-10"><a className="font-medium decoration-2 underline-offset-8 hover:underline" href="#">PRECIOS</a></li>
-            <li className="mt-10"><a className="font-medium decoration-2 underline-offset-8 hover:underline" href="#">EQUIPO</a></li>
-            <li className="mt-10"><a className="font-medium decoration-2 underline-offset-8 hover:underline" href="#">CONTACTO</a></li>
+            <li className="mt-5"><a className="font-medium decoration-2 underline-offset-4 hover:underline" href="#">SOBRE MI</a></li>
+            <li className="mt-10"><a className="font-medium decoration-2 underline-offset-4 hover:underline" href="#">PRECIOS</a></li>
+            <li className="mt-10"><a className="font-medium decoration-2 underline-offset-4 hover:underline" href="#">EQUIPO</a></li>
+            <li className="mt-10"><a className="font-medium decoration-2 underline-offset-4 hover:underline" href="#">CONTACTO</a></li>
           </ul>
         </div>
       </div>
