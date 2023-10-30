@@ -39,9 +39,9 @@ const Header = () => {
       </div>
       <header className="flex justify-between items-center">
         <Link className="lg:ml-32" href="/">
-          <h1 className="bg-[rgb(10,10,10)] text-center text-3xl font-extralight p-3 border w-48 mx-5 my-10 transition-all duration-500 ease-in-out hover:border-pink-500 hover:text-pink-500">Lucas.Pixel</h1>
+          <h1 className="bg-[rgb(10,10,10)] text-center text-3xl font-extralight p-3 border w-48 mx-5 my-7 transition-all duration-500 ease-in-out hover:border-pink-500 hover:text-pink-500">Lucas.Pixel</h1>
         </Link>
-        <div className="flex justify-center items-center mr-5 bg-gray-300 rounded-lg w-10 h-10 transition-colors duration-300 ease-in-out hover:cursor-pointer hover:bg-white md:hidden" onClick={handleClickMenu}>
+        <div className="flex justify-center items-center mr-5 bg-gray-200 rounded-lg w-10 h-10 transition-colors duration-300 ease-in-out hover:cursor-pointer hover:bg-pink-600 md:hidden" onClick={handleClickMenu}>
           <FontAwesomeIcon className="text-gl" icon={faBars} style={{ color: "#000000", }} />
         </div>
         <MenuHeaderDesktop />

@@ -42,17 +42,17 @@ const Carrousel = () => {
   return (
     <section>
       <Image
-        className={`w-full h-64 absolute transition-opacity duration-300 ease-linear sm:h-80 lg:h-[500px] ${opacityImages.imageCarrousel01}`}
+        className={`w-full h-64 absolute transition-opacity duration-300 ease-linear sm:h-80 lg:h-[500px] xl:h-[550px] ${opacityImages.imageCarrousel01}`}
         src={imageCarrousel01Defatul}
         alt="proyecto01"
       />
       <Image
-        className={`w-full h-64 absolute transition-opacity duration-300 ease-linear sm:h-80 lg:h-[500px] ${opacityImages.imageCarrousel02}`}
+        className={`w-full h-64 absolute transition-opacity duration-300 ease-linear sm:h-80 lg:h-[500px] xl:h-[550px] ${opacityImages.imageCarrousel02}`}
         src={imageCarrousel02Defatul}
         alt="proyecto02"
       />
       <Image
-        className={`w-full h-64 absolute transition-opacity duration-300 ease-linear sm:h-80 lg:h-[500px] ${opacityImages.imageCarrousel03}`}
+        className={`w-full h-64 absolute transition-opacity duration-300 ease-linear sm:h-80 lg:h-[500px] xl:h-[550px] ${opacityImages.imageCarrousel03}`}
         src={imageCarrousel03Defatul}
         alt="proyecto03"
       />
