@@ -1,13 +1,13 @@
 import Carrousel from '@/components/Carrousel'
 import SocialMediaSection from '@/components/SocalMediaSection'
-import ProyectsSection from '@/components/ProyectsSection'
+import ProjectsSection from '@/components/ProyectsSection'
 
 export default function Home() {
   return (
     <main>
       <Carrousel />
       <SocialMediaSection />
-      <ProyectsSection />
+      <ProjectsSection />
     </main>
   )
 }
